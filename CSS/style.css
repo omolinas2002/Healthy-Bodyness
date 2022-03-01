@@ -29,7 +29,7 @@ body {
 }
 
 /* MEDIA QUERIAS PANTALLA  EXTRA CHICA  */
-@media (max-width: 576pz) {
+@media (max-width: 576px) {
   .icono-wrap {
     flex-wrap: wrap;
     justify-content: center !important;
