@@ -1,66 +1,61 @@
 /* ===================BODY ==================*/
+/*============ MENU =================*/
+/*============ CARRUSEL =================*/
+/* MEDIA QUERIAS PANTALLA CHICA  */
+/* MEDIA QUERIAS PANTALLA  EXTRA CHICA  */
 body {
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
-}
-/*============ MENU =================*/
+  overflow-x: hidden; }
+
 #menu li > a {
   font-size: 18px;
   font-weight: bold;
-  color: #3f3f3f;
-}
+  color: #3f3f3f; }
+
 #menu form > button {
   font-size: 18px;
-  font-weight: bold;
-}
-/*============ CARRUSEL =================*/
-.carousel-inner {
-  max-height: 5000px;
-}
-/* MEDIA QUERIAS PANTALLA CHICA  */
-@media (max-width: 768px) {
-  #introduccion {
-    width: 90% !important;
-  }
-  .planes-fila {
-    width: 100% !important;
-    text-align: center;
-  }
-}
+  font-weight: bold; }
 
-/* MEDIA QUERIAS PANTALLA  EXTRA CHICA  */
-@media (max-width: 576px) {
-  .icono-wrap {
-    flex-wrap: wrap;
-    justify-content: center !important;
-  }
-}
+.carousel-inner {
+  max-height: 5000px; }
+
 .iframeYoutube {
   position: relative;
   left: 600px;
   display: block;
   width: 800px;
-  height: 800px;
-}
+  height: 800px; }
+
 #plan__bronce {
   display: inline-block;
   background-color: brown;
   font-size: 30px;
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 #plan__silver {
   display: inline-block;
   background-color: silver;
   font-size: 30px;
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 #plan__gold {
   display: inline-block;
   background-color: gold;
   font-size: 30px;
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 #comprar {
   font-weight: bold;
-  font-size: 18px;
-}
+  font-size: 18px; }
+
+@media (max-width: 768px) {
+  #introduccion {
+    width: 90% !important; }
+  .planes-fila {
+    width: 100% !important;
+    text-align: center; } }
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; } }
